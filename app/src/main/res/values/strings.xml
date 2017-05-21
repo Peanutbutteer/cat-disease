@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cat Disease</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="gender">
+        <item>ชาย</item>
+        <item>หญิง</item>
+    </string-array>
+
+    <string-array name="species">
+        <item>เปอร์เซีย</item>
+        <item>ไม่มีลักษณะจำเพาะ</item>
+        <item>สกอตติชโฟลด์</item>
+    </string-array>
+</resources>

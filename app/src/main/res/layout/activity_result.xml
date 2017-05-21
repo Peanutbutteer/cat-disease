@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e93d57"
+    android:orientation="vertical"
+    tools:context="com.iampeanut.cat.ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="โรคแมวบ้า"
+        android:textColor="@android:color/white"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:padding="16dp"
+        android:text="รายการยาที่อาจต้องใช้"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="16dp"
+        android:text="เป็นแค่การวินิฉัยเบื้องต้นเท่านั้นกรุณาไปพบแพทย์"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/button_background"
+        android:text="ฺBack"
+        android:textColor="@android:color/white" />
+</LinearLayout>
